@@ -21,7 +21,9 @@ Along with exploring state-of-the-art CNN models for classification and localiza
 - ResNet 101 pre-trained model is imported. Model paramters are turned off for gradient calculation. 
 - To classify dogs breeds in 133 classes, fully connected layers of ResNet 101 are replaced by 133 classes instead of predefined classes. 
 - Train the model using number of epochs, train-, test-, and validation-loaders, ResNet model, and the loss criterion. 
-- 
+- Check the train and validation error for training and validation loaders and save the model which has minimum validation loss. 
+- Test the model with the test datasets and check the accuracy of the model.
+- Calculated test loss: __0.448434__ and Accuracy: __87% (733/836)__ 
 
 
 ## Project Instructions Given by Udacity
