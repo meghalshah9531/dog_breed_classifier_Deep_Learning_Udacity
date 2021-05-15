@@ -13,6 +13,16 @@ Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree!
 
 Along with exploring state-of-the-art CNN models for classification and localization, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
 
+## Convolutional Neural Network (CNN)
+
+
+
+## CNN by Transfer Learning - ResNet 101 
+- ResNet 101 pre-trained model is imported. Model paramters are turned off for gradient calculation. 
+- To classify dogs breeds in 133 classes, fully connected layers of ResNet 101 are replaced by 133 classes instead of predefined classes. 
+- Train the model using number of epochs, train-, test-, and validation-loaders, ResNet model, and the loss criterion. 
+- 
+
 
 ## Project Instructions Given by Udacity
 
